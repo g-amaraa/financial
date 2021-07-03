@@ -1,0 +1,84 @@
+.logo {
+  margin: 0.5rem;
+}
+
+.l-heading {
+  font-size: 2.5rem;
+}
+
+.m-heading {
+  font-size: 1.25rem;
+}
+
+#navbar {
+  flex-direction: column;
+  align-items: center;
+}
+
+#service .items {
+  display: block;
+}
+
+#service .items .item {
+  display: flex;
+  text-align: left;
+}
+
+#service .items .item i {
+  align-self: center;
+  margin: 0.75rem;
+}
+#we #we-img {
+  display: none;
+}
+
+#partners .items img {
+  width: 90%;
+}
+
+#contact {
+  display: block;
+}
+
+#contact #map {
+  width: 100%;
+  height: 60vh;
+}
+
+@media (max-width: 390px) {
+  body {
+    font-size: 75%;
+  }
+  /*
+  .l-heading {
+    font-size: 2rem;
+  }*/
+  .lead-text {
+    font-size: 1rem;
+    margin: 0.25rem;
+  }
+
+  #navbar {
+    padding: 0.25rem 1rem;
+  }
+
+  #navbar ul li a {
+    padding: 0.25rem 1rem;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #service .items .item {
+    flex-direction: column;
+  }
+
+  #partners .items {
+    display: block;
+  }
+
+  #partners .items img {
+    width: 50%;
+  }
+}

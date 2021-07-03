@@ -1,0 +1,229 @@
+/*Үндсэн стайлууд*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, "Segoe UI", sans-serif;
+  line-height: 1.75;
+}
+
+.container {
+  max-width: 1560px;
+  margin: auto;
+  padding: 0 1.5rem;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+.primary-color {
+  color: #93cb52;
+}
+
+.l-heading {
+  font-size: 3.5rem;
+  line-height: 1.25;
+  margin: 0.5rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+}
+
+.lead-text {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.75rem;
+}
+.p-3 {
+  padding: 2.5rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.75rem 0;
+}
+.py-3 {
+  padding: 2.5rem 0;
+}
+
+.list {
+  margin: 0.5rem;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem;
+  border-bottom: #555 dotted 1px;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #93cb52;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #66992b;
+}
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* #толгой хэсэг */
+#showcase {
+  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+/* #navbar хэсэг */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+#navbar ul li a:hover {
+  background-color: #93cb52;
+}
+
+/* #showcase хэсэг*/
+#showcase .showcase-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* #service хэсэг */
+#service .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#service .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+#service .items .item i {
+  background: #93cb52;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+/* #we хэсэг*/
+#we {
+  display: flex;
+}
+
+#we div {
+  flex: 1;
+}
+
+#we #we-img {
+  background: url("../img/people.jpg") no-repeat center center/cover;
+}
+
+/* #parents хэсэг */
+#partners .items {
+  display: flex;
+}
+
+#partners .items img {
+  display: block;
+  margin: auto;
+  width: 66.6%;
+}
+
+/* #contact хэсэг */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact #map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* #main-footer хэсэг */
